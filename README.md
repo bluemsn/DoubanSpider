@@ -29,17 +29,16 @@ DoubanSpider
   爬虫运行参数，热配置，包括爬虫的并发数、抓取频率、子进程数。即 configure.json中control 的子属性。
   
 目录结构：
-
-  src/applications.js  核心功能函数 下载和分析
-  src/context.js       上下文，包括日志和数据库配置
-  src/db.js            mongo redis的驱动调用
-  src/index.js         analyse父进程
-  src/pageAnalyse.js   网页分析类
-  src/seed.js          种子抓取脚本
-  src/speedControl.js  抓取平率控制类
-  src/spider.js        爬虫策略
-  src/startAnalyse.js  网页分析子进程
-  src/startSpider.js   启动爬虫进程
+	  src/applications.js  核心功能函数 下载和分析
+	  src/context.js       上下文，包括日志和数据库配置
+	  src/db.js            mongo redis的驱动调用
+	  src/index.js         analyse父进程
+	  src/pageAnalyse.js   网页分析类
+	  src/seed.js          种子抓取脚本
+	  src/speedControl.js  抓取平率控制类
+	  src/spider.js        爬虫策略
+	  src/startAnalyse.js  网页分析子进程
+	  src/startSpider.js   启动爬虫进程
   
 结构化数据如下：
 {
